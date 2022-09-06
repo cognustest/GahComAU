@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.gahcomau.testcases.NewUserOrderTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 0.417 s <<< FAILURE! - in com.gahcomau.testcases.NewUserOrderTest
+setup(com.gahcomau.testcases.NewUserOrderTest)  Time elapsed: 0.256 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "browserName" is null
+	at com.gahcomau.testcases.NewUserOrderTest.setup(NewUserOrderTest.java:25)
+
